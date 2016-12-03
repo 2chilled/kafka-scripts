@@ -1,0 +1,28 @@
+name:                kafka-scripts
+version:             0.1.0.0
+synopsis:            Any scripts which make an addition to kafka scripts
+description:         Please see README.md
+homepage:            https://github.com/2chilled/kafka-scripts#readme
+license:             BSD3
+author:              Matthias Herrmann
+maintainer:          matthias.mh.herrmann@gmail.com
+copyright:           2016 Matthias Herrmann
+category:
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable kafka-consumer-lag-total
+  hs-source-dirs:      consumer-lag-total
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , simple
+                     , attoparsec >= 0.13
+                     , text >= 1.2
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+
+source-repository head
+  type:     git
+  location: https://github.com/2chilled/kafka-scripts

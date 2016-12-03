@@ -1,0 +1,16 @@
+GROUP                          TOPIC                          PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             OWNER
+myGroup      topic                           8          57004           57004           0               consumer-1_/127.0.0.1
+myGroup      topic                           9          55462           55462           0               consumer-1_/127.0.0.1
+myGroup      topic                           10         170706          170706          0               consumer-1_/127.0.0.1
+myGroup      topic                           11         96874           96874           0               consumer-1_/127.0.0.1
+myGroup      topic                           12         155318          155318          0               consumer-1_/127.0.0.1
+myGroup      topic                           13         81836           81836           0               consumer-1_/127.0.0.1
+myGroup      topic                           14         39377           39377           0               consumer-1_/127.0.0.1
+myGroup      topic                           0          117273          117273          6               consumer-1_/127.0.0.1
+myGroup      topic                           1          66487           66487           7               consumer-1_/127.0.0.1
+myGroup      topic                           2          99097           99097           8               consumer-1_/127.0.0.1
+myGroup      topic                           3          133941          133941          7000            consumer-1_/127.0.0.1
+myGroup      topic                           4          52608           52608           0               consumer-1_/127.0.0.1
+myGroup      topic                           5          158511          158511          0               consumer-1_/127.0.0.1
+myGroup      topic                           6          68726           68726           0               consumer-1_/127.0.0.1
+myGroup      topic                           7          68909           68909           0               consumer-1_/127.0.0.1
